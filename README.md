@@ -54,3 +54,11 @@ def NombreMetodo(self):
   - Puedes definir tantos meetodos como ncesites.
   - Puedes definir tantos parametros en el constructor y en los metodos como necesites. 
   
+
+## Compsicion
+
+- consiste en la creacion de nuevas clases apartir de otras clases ya existentes que acuan como elementos compositores de la nueva.
+- Las clases existentees sern atributos de la nueva clase, en POO la composicio significa que entre las dos clases existe una relacion del tipo "Tiene un". 
+- Ejemplo:
+   - una coordenada en dos dimenciones esta compuesta por dos valores, e valor en el eje de las X y el valor en el eje de las Y, eso podia ser una clase. Un cuadrado esta compuesto por 4 coordenadas que son los 4 vertices, eso podria ser ua clase que esta compuesta por 4 clases del objeto coordenada.  
+   
