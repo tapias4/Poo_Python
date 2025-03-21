@@ -29,10 +29,10 @@ class Cuadrado:
     # metodo para mostrar los vertices  
     def mostrarVertices(self):
         print("El cuadrado esta compuesto por los siguientes vertices: ")
-        self.V1.mostrarCoordena(7,8)
-        self.V2.mostrarCoordena(10,8)
-        self.V3.mostrarCoordena(7,5)
-        self.V4.mostrarCoordena(10,5)
+        self.V1.mostrarCoordena()
+        self.V2.mostrarCoordena()
+        self.V3.mostrarCoordena()
+        self.V4.mostrarCoordena()
 
 # Metodo principal
 def main():
@@ -44,5 +44,13 @@ def main():
     c1 = Coordenada(x1, x2)
     c1.mostrarCoordenada()
 
-    if __name__ == "__main__":
+    v1 = Coordenada()
+    v2 = Coordenada()
+    v3 = Coordenada()
+    v4 = Coordenada()
+
+    cuadrado1 = Cuadrado(v1, v2, v3, v4)
+    cuadrado1.mostrarVertices()
+
+if __name__ == "__main__":
         main()
